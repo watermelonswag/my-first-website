@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+
+* {
+    font-family: 'Montserrat';
+}
+
+body {
+    min-width: fit-content;
+    background-image: url("images/kjh.png");
+    background-size: cover;
+}
+
+h1 {
+    font-style: italic;
+    border-bottom: 1px solid gray;
+    margin-right: 140px;
+}
+
+.kimjeonghan {
+    width: 90%;
+    height: 370px;
+    margin-top: 12px;
+    margin-left: 12px;
+
+}
+
+.Top {
+    font-size: 25px;
+    text-align: center;
+    border-bottom: 2px solid white;
+    background-color: #0A0A2A;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+}
+
+.main-box {
+    width: 650px;
+    border: 1px solid #ebebeb;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,0.1);
+    background-image: url("images/paper.png");
+    background-size: cover;
+}
+
+.Myself-mainname {
+    font-size: 20px;
+    font-weight: bold;
+    display: none;
+}
+
+.Myself-subname {
+    font-size: 15px;
+    color:#6E6E6E;
+    display: none;
+}
+
+.Myself-mainname2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 150px;
+}
+
+.Myself-subname2 {
+    font-size: 15px;
+    color:#6E6E6E;
+    margin-top: 15px;
+}
+
+.Contact {
+    float: left;
+    margin-top: 30px;
+    display: none;
+}
+
+.sns {
+    float: bottom;
+}
+
+.Myself {
+    display: none;
+    float: left;
+    margin-top: 50px;
+    line-height: 50px;
+}
+
+.Hobbies {
+    float: left;
+    margin-top: 35px;
+    line-height: 40px;
+    display: none;
+}
+
+.Education {
+    display: none;
+}
+
+.Experience {
+    display: none;
+}
+
+.Icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+button {
+    border: 0;
+    background: none;
+    cursor: pointer;
+}
+
+.bottom {
+    clear: both;
+    text-align: center;
+    margin: 100px;
+    line-height: 40px;
+}
+
+.bottom2 {
+    clear: both;
+    float: bottom;
+    text-align: center;
+}
+
+.title-text {
+    font-size: 12px;
+    float: left;
+    font-size: bold;
+}
+
+.year-text {
+    font-size: 12px;
+    float: right;
+    font-size: bold;
+}
+
+.float-wrap {
+    overflow: hidden;
+    padding-right: 15px;
+    line-height: 25px;
+}
+
+.float-wrap2 {
+    overflow: hidden;
+    padding-right: 15px;
+    line-height: 5px;
+}
+
+.desc-text {
+    font-size: 9px;
+    margin-left: 15px;
+    color:#6E6E6E
+}
+
+.arrow {
+    display: none;
+}
+
+.dotContact {
+    display: none;
+}
+
+.dotEducation {
+    display: none;
+}
+
+.dotExperience {
+    display: none;
+}
+
+.dotHobbies {
+    display: none;
+}
+
+.dotMyself {
+    display: none;
+}
